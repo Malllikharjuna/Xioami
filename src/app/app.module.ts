@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { PropertyCardComponent } from './property-card/property-card.component';
 import { PropertyListComponent } from './property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import {HttpClientModule} from '@angular/common/http'
+import { RealserviceService } from 'src/services/realservice.service';
 
 @NgModule({
   declarations: [
@@ -15,9 +17,12 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    RealserviceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
