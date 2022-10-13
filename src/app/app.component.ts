@@ -1,4 +1,4 @@
-abc import { Component } from '@angular/core';
+demo abc import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
