@@ -1,4 +1,4 @@
-demo abc import { Component } from '@angular/core';
+third demo abc import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
